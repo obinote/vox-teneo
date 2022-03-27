@@ -63,14 +63,14 @@ function MainContent() {
                                 See our partners
                             </button>
                         </div>
-                        <div className="flex space-x-4">
-                            <div className="border-2 border-gray-500 w-28 h-28 xs:w-60 xs:h-60 flex items-center justify-center">
+                        <div className="flex space-x-4 overflow-x-scroll">
+                            <div className="border-2 border-gray-500 min-w-[200px] min-h-[200px] xs:min-w-[250px] xs:min-h-[250px] flex items-center justify-center">
                                 <p>Home Decor</p>
                             </div>
-                            <div className="border-2 border-gray-500 w-28 h-28 xs:w-60 xs:h-60  flex items-center justify-center">
+                            <div className="border-2 border-gray-500 min-w-[200px] min-h-[200px] xs:min-w-[250px] xs:min-h-[250px]  flex items-center justify-center">
                                 <p>Diesel</p>
                             </div>
-                            <div className="border-2 border-gray-500 w-28 h-28 xs:w-60 xs:h-60  flex items-center justify-center">
+                            <div className="border-2 border-gray-500 min-w-[200px] min-h-[200px] xs:min-w-[250px] xs:min-h-[250px]  flex items-center justify-center">
                                 <p>Zara</p>
                             </div>
                         </div>
