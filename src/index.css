@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Nunito";
+        font-weight: 200;
+        src: url("./font/body-Nunito/Nunito-ExtraLight") format("ttf");
+    }
+    @font-face {
+        font-family: "Nunito";
+        font-weight: 200;
+        font-style: italic;
+        src: url("./fonts/body-Nunito/Nunito-ExtraLightItalic") format("ttf");
+    }
+    @font-face {
+        font-family: "Nunito";
+        font-weight: 300;
+        src: url("./fonts/body-Nunito/Nunito-Light") format("ttf");
+    }
+    @font-face {
+        font-family: "Nunito";
+        font-weight: 300;
+        font-style: italic;
+        src: url("./fonts/body-Nunito/Nunito-LightItalic") format("ttf");
+    }
+    @font-face {
+        font-family: "Nunito";
+        font-weight: 400;
+        src: url("./fonts/body-Nunito/Nunito-Regular") format("ttf");
+    }
+    @font-face {
+        font-family: "Nunito";
+        font-weight: 400;
+        font-style: italic;
+        src: url("./fonts/body-Nunito/Nunito-Italic") format("ttf");
+    }
+    @font-face {
+        font-family: "Nunito";
+        font-weight: 600;
+        src: url("./fonts/body-Nunito/Nunito-SemiBold") format("ttf");
+    }
+    @font-face {
+        font-family: "Nunito";
+        font-weight: 600;
+        font-style: italic;
+        src: url("./fonts/body-Nunito/Nunito-SemiBoldItalic") format("ttf");
+    }
+    @font-face {
+        font-family: "Nunito";
+        font-weight: 700;
+        src: url("./fonts/body-Nunito/Nunito-Bold") format("ttf");
+    }
+    @font-face {
+        font-family: "Nunito";
+        font-weight: 700;
+        font-style: italic;
+        src: url("./fonts/body-Nunito/Nunito-BoldItalic") format("ttf");
+    }
+    @font-face {
+        font-family: "Nunito";
+        font-weight: 800;
+        src: url("./fonts/body-Nunito/Nunito-ExtraBold") format("ttf");
+    }
+    @font-face {
+        font-family: "Nunito";
+        font-weight: 800;
+        font-style: italic;
+        src: url("./fonts/body-Nunito/Nunito-ExtraBoldItalic") format("ttf");
+    }
+    @font-face {
+        font-family: "Nunito";
+        font-weight: 900;
+        src: url("./fonts/body-Nunito/Nunito-Black") format("ttf");
+    }
+    @font-face {
+        font-family: "Nunito";
+        font-weight: 900;
+        font-style: italic;
+        src: url("./fonts/body-Nunito/Nunito-BlackItalic") format("ttf");
+    }
+}
